@@ -1,4 +1,4 @@
-# Tutorium 13.02
+# Tutorium 19.02
 Wo: MP313 Hörsaal  
 Wann: 13:30 - 15:00 Uhr  
 Was: Prozedurale Sprachelemente  
