@@ -1,4 +1,4 @@
-package Termin2_OO.Aufgabe2;
+package tut2.aufgabe2;
 
 public class Player {
     private String name;

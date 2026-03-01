@@ -1,3 +1,5 @@
+package tut1.aufgabe2;
+
 import java.util.Random;
 
 public class Aufgabe2Extra {

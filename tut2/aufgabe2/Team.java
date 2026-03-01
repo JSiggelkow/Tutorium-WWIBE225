@@ -1,4 +1,4 @@
-package Termin2_OO.Aufgabe2;
+package tut2.aufgabe2;
 
 import java.util.ArrayList;
 

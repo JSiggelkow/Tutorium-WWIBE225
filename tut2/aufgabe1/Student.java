@@ -1,4 +1,4 @@
-package Termin2_OO.Aufgabe1;
+package tut2.aufgabe1;
 
 public class Student {
     private String firstName;
