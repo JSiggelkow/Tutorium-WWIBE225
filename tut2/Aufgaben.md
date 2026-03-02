@@ -72,31 +72,3 @@ Berechne die Gesamtleistung jedes Autos und gib anschließend den Gewinner in fo
 
 ```McLaren wins with 26767 power.```
 
-
-
-
----
-
-## Aufgabe 4 – Kinoverwaltunng
-
-Das Kino möchte zu Filmabenden einladen und braucht ein System zur Verwaltung ihrer Vorführungen.
-
-Gegeben ist folgendes Klassendiagramm:
-
-<img src="img_3.png" height="300">
-
-**a)** Implementiere die Klasse ``Movie``.  
-Der Konstruktor soll jeweils alle Attribute initialisieren. ``printMovieInfo()`` soll eine Ausgabe der folgenden Art erzeugen:
-```
-Titel: Roman Holiday (1953)
-Schauspieler:
-- Gregory Peck (39)
-- Audrey Hepburn (24)
-```
-
-Die Methode ``getOldestActor()`` soll den ältesten ``Actor`` der Liste ausgeben.
-
-**b)** Implementiere die Klasse ``Cinema``.  
-Der Konstruktor soll jeweils alle Attribute initialisieren. ``printProgram()`` soll den Kinonamen und alle Filme mit i hren Infos ausgeben.
-
-**c)** `Erstelle in der ``main``-Methode ein ``Cinema``-Objekt. Lege zwei Filme an, füge jeweils zwei Schauspieler hinzu und rufe ``printProgram()`` auf. Gib außerdem für jeden Film den ältesten Schauspieler aus.
