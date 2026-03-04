@@ -9,6 +9,6 @@ Die Termine sind die folgenden:
 * **19.02.** - Prozedurale Programmierung
 * **26.02.** - Einführung Objektorientierte Programmierung
 * **02.03.** - Vertiefung Objektorientierte Programmierung
-* **06.03.**
+* **06.03.** - Vererbungen
 * **13.03.**
 * **16.03.** (wird eventuell verschoben)
