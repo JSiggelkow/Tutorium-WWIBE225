@@ -1,17 +1,13 @@
 # Tutorium 06.03. – Vererbungen
 
 ---
-
-## Aufgabe 1 – 
-
-
-## Aufgabe 2 – Kahoot-Preise
+## Aufgabe 1 – Kahoot-Preise
 
 Das Tutorium startet immer mit einem Kahoot. Joa und Jonas haben viel diskutiert, was für dich ein würdiger Preis ist, wenn du das Kahoot gewinnst. Kannst du ihnen ein Programm schreiben, was sie bei der Auswahl unterstützt?
 
 Gegeben ist folgendes Klassendiagramm:
 
-<img src="img_2.png" height="700">
+<img src="img_1.png" height="700">
 
 
 **Allgemeine Hinweise**

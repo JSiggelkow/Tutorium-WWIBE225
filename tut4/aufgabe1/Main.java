@@ -1,4 +1,4 @@
-package tut4.aufgabe2;
+package tut4.aufgabe1;
 
 public class Main {
 }
