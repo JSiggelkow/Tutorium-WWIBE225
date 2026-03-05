@@ -10,5 +10,5 @@ Die Termine sind die folgenden:
 * **26.02.** - Einführung Objektorientierte Programmierung
 * **02.03.** - Vertiefung Objektorientierte Programmierung
 * **06.03.** - Vererbungen
-* **13.03.**
+* **13.03.** - Klausurvorbereitung
 * **16.03.** (wird eventuell verschoben)
