@@ -2,7 +2,7 @@
 
 ---
 
-Dies ist das GitHub für das Tutorium.
+Dies ist das GitHub für das Programmieren 1 Tutorium für WWIBE225.
 
 Die Termine sind die folgenden:
 
