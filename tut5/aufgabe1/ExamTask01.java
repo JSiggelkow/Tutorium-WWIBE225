@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class ExamTask01 { //0,5
 
-	private static int lernaufwandInStunden; //0,5
+	private static String lernaufwandInStunden; //0,5
 	private static List<Modul> module; //0,5
 	private static int sum; //0,5
 
@@ -17,7 +17,7 @@ public class ExamTask01 { //0,5
 		Scanner sc = new Scanner(System.in); //1
 		System.out.print("Lernaufwand in Stunden eingeben:"); //0,5
 
-		lernaufwandInStunden = sc.nextInt(); //1
+		lernaufwandInStunden = sc.nextLine(); //1
 
 		module = scanModule(new File("tut5/aufgabe1/module.txt")); //1
 
@@ -27,7 +27,7 @@ public class ExamTask01 { //0,5
 			sum += m.getLernaufwandInStunden(); //1
 		}
 
-		if (sum > lernaufwandInStunden) { //1
+		if (sum > Integer.valueOf(lernaufwandInStunden)) { //1
 			System.out.println("Du musst mehr lernen!"); //0,5
 		} else {
 			System.out.println("Du lernst genug!"); //0,5
