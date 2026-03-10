@@ -6,6 +6,7 @@ public class Wasser extends Getraenk {
 
 	public Wasser(String name, int ml, boolean mitSprudel) {
 		super(name, ml);
+		this.mitSprudel = mitSprudel;
 	}
 
 	public boolean isMitSprudel() {

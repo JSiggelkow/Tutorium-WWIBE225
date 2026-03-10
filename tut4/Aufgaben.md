@@ -7,7 +7,7 @@ Das Tutorium startet immer mit einem Kahoot. Joa und Jonas haben viel diskutiert
 
 Gegeben ist folgendes Klassendiagramm:
 
-<img src="img_1.png" height="700">
+<img src="img_1.png" height="650">
 
 
 **Allgemeine Hinweise**
