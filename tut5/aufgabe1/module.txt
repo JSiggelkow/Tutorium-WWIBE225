@@ -1,0 +1,3 @@
+Logik und Algebra;90
+Programmieren 1;100
+Bodo;2
