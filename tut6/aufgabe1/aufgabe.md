@@ -29,9 +29,11 @@ Gegeben ist folgendes Klassendiagramm:
 * Die Methode `getAeltestenVerein()` soll den ältesten Verein zurückgeben.
 * Die Methode `getKurzestenNamen()` soll den Verein zurückgeben, der gen kürzesten Namen hat.
 
-**a)** Implementiere die Klassen ``Sportart``, ``Profiverein``, ``Bewertbar`` und `Vereinsverwaltung` aus dem Klassendiagramm.
+**a)** Implementiere die Klassen ``Sportart``, ``Profiverein`` und ``Bewertbar`` aus dem Klassendiagramm.
 
 **b)** Implementiere die Klasse ``ExamTask02`` mit der Methode `scanVerein(file: File)`, die aus der Datei Amateurvereine erstellt.
+
+**c)** Implementiere die Klasse `Vereinsverwaltung` aus dem Klassendiagramm.
 
 **Beispielhafter Aufbau der Vereinsdatei:**
 ```
