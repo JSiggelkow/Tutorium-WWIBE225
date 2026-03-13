@@ -1,0 +1,3 @@
+TSB Ravensburg,1847,FUSSBALL,3700,35,80
+TC Ravensburg,1892,TENNIS,500,47,210
+Lübecker Schachverein,1873,SCHACH,230,14,60
