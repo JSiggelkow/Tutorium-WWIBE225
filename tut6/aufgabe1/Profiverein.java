@@ -11,7 +11,7 @@ public class Profiverein extends Verein implements Bewertbar{
     }
 
     public boolean verpflichteSpieler(double gehalt) {
-        if (jahresbudget/kaderGroesse > gehalt) {
+        if (jahresbudget / kaderGroesse > gehalt) {
             return true;
         } else {
             return false;
