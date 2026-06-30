@@ -1,15 +1,14 @@
-# Tutorium Programmieren - WWIBE225
-
+# Tutorium Programmieren WWIBE
 ---
 
-Dies ist das GitHub für das Programmieren 1 Tutorium für WWIBE225.
+Programmieren 2 Tutorium für die Kurse WWIBE125 und 225
 
 Die Termine sind die folgenden:
 
-* **19.02.** - Prozedurale Programmierung
-* **26.02.** - Einführung Objektorientierte Programmierung
-* **02.03.** - Vertiefung Objektorientierte Programmierung
-* **06.03.** - Vererbungen
-* **10.03 | 16:30 - 18:00 Uhr** - Klausurvorbereitung
-* **13.03 | 10:45 - 12:15 Uhr** - Klausurvorbereitung
-* **17.03 | 14:30 - 16:00 Uhr** - Klausurvorbereitung
+* **29.07 | 17:30 - 19:00** - Thema wird noch festgelegt
+* **04.08 | 12:00 - 13:30** - Thema wird noch festgelegt
+* **11.08 | 12:00 - 13:30** - Thema wird noch festgelegt
+* **20.08 | 13:45 - 15:15** - Thema wird noch festgelegt
+* **31.08 | 17:30 - 19:00** - Thema wird noch festgelegt
+* **04.09 | 13:30 - 15:00** - Thema wird noch festgelegt
+* **09.09 | 13:45 - 15:15** - Thema wird noch festgelegt
