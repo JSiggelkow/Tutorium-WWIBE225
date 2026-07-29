@@ -28,6 +28,6 @@ public class Aniel {
 	}
 
 	public double evaluate() {
-		return new Random().nextInt(1, 6);
+		return Math.round(new Random().nextDouble(1.0, 6.0) * 10.0) / 10.0;
 	}
 }
