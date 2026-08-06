@@ -1,5 +1,14 @@
 package prog2.tut2.aufgabe1;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+import java.util.function.Predicate;
+
+@Getter
+@Setter
+@ToString
 public class Etappe {
     private String number;
     private int distance;
@@ -8,36 +17,6 @@ public class Etappe {
     public Etappe(String number, int distance, int heightMeters) {
         this.number = number;
         this.distance = distance;
-        this.heightMeters = heightMeters;
-    }
-
-    /*
-    Lombok:
-    @Getter
-    @Setter
-     */
-
-    public String getNumber() {
-        return number;
-    }
-
-    public void setNumber(String number) {
-        this.number = number;
-    }
-
-    public int getDistance() {
-        return distance;
-    }
-
-    public void setDistance(int distance) {
-        this.distance = distance;
-    }
-
-    public int getHeightMeters() {
-        return heightMeters;
-    }
-
-    public void setHeightMeters(int heightMeters) {
         this.heightMeters = heightMeters;
     }
 

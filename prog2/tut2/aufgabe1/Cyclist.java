@@ -1,5 +1,10 @@
 package prog2.tut2.aufgabe1;
 
+import lombok.Getter;
+import lombok.ToString;
+
+@ToString
+@Getter
 public class Cyclist {
     private String name;
     private int age;
@@ -15,43 +20,6 @@ public class Cyclist {
         this.pointsGreen = 0;
         this.pointsDotted = 0;
         this.pointsGeneral = 0;
-    }
-
-    /*
-    Lombok:
-    @Getter
-    */
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getRoleInTeam() {
-        return roleInTeam;
-    }
-
-    public int getPointsGreen() {
-        return pointsGreen;
-    }
-
-    public int getPointsDotted() {
-        return pointsDotted;
-    }
-
-    public int getPointsGeneral() {
-        return pointsGeneral;
-    }
-
-    public void setRoleInTeam(String roleInTeam) {
-        this.roleInTeam = roleInTeam;
     }
 
     public void addPointsGreen(int pointsGreen) {

@@ -1,6 +1,6 @@
 package prog2.tut2.aufgabe1;
 
-public class TourDeFranceFemmes {
+public class TourDeFrance {
     public static void main(String[] args) {
         Cyclist c1 = new Cyclist("Demi Vollering", 29, "GC rider");
         Cyclist c2 = new Cyclist("Franziska Koch", 26, "GC Supporter");
@@ -31,6 +31,8 @@ public class TourDeFranceFemmes {
         System.out.println("Die Fahrerin aus dem Team " + t1.getName() + " mit den meisten gelben Punkten ist " + t1.getCyclists().getFirst().getName());
 
         System.out.println("Das Team " + t1.getName() + " hat " + t1.getTotalPoints() + " Punkte insgesamt.");
+
+		t1.filterCyclists(c -> c.getAge() > 27).forEach(System.out::println);
     }
 
 
