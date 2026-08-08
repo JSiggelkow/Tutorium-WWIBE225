@@ -6,11 +6,6 @@ Dafür benötigen die Veranstalter allerdings noch Unterstützung dabei, die fü
 
 Extrapunkte gibt es, wenn du in der Klasse ``TourDeFrance`` bereits die Siegerin der heutigen Etappe einbaust!
 
-Erstelle die Klassen anhand des abgebildeten Klassendiagramms.  
-
-Tipp: Wenn du dir nicht deine Hände wund schreiben willst nutze Lombok um dir Getter und Setter Methoden zu generieren.  
-Wenn du dich noch unsicher bei Gettern und Settern fühlst implementiere sie noch manuell.
-
 ### Anmerkungen zu den Methoden
 In der Klasse ``Cyclist`` soll der Konstruktor die drei Punktewertungen auf 0 setzen.
 
@@ -71,7 +66,7 @@ classDiagram
         +addCyclist(Cyclist) void
         +sortCyclists() void
         +getTotalPoints() int
-        +filterCyclists(condition: Predicate~Cyclist~) ArrayList~Cyclist~
+        +filterCyclists(Predicate~Cyclist~) ArrayList~Cyclist~
     }
 
     class Etappe {
@@ -85,7 +80,7 @@ classDiagram
         +setDistance(int) void
         +getHeightMeters() int
         +setHeightMeters(int) void
-        +rate(cyclist: Cyclist, rank: int, category: Category) void
+        +rate(Cyclist, int, Category) void
     }
 
     class Category {
