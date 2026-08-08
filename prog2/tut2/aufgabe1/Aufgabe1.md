@@ -71,7 +71,7 @@ classDiagram
         +addCyclist(Cyclist) void
         +sortCyclists() void
         +getTotalPoints() int
-        +filterCyclists(Predicate~Cyclist~) ArrayList~Cyclist~
+        +filterCyclists(condition: Predicate~Cyclist~) ArrayList~Cyclist~
     }
 
     class Etappe {
@@ -85,7 +85,7 @@ classDiagram
         +setDistance(int) void
         +getHeightMeters() int
         +setHeightMeters(int) void
-        +rate(Cyclist, int, Category) void
+        +rate(cyclist: Cyclist, rank: int, category: Category) void
     }
 
     class Category {
