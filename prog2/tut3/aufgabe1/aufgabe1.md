@@ -30,8 +30,7 @@ Die Methode getMusicByGenreFromPlaylist(playlistName: String) soll die Songs der
 
 ## Klassendiagramm
 
-<img width="7210" height="4495" alt="RAG-2026-08-11-103204" src="https://github.com/user-attachments/assets/699461fb-ccf3-4ef6-aca2-6fdf23f346a4" />
-
+<img width="7210" height="4495" alt="RAG-2026-08-11-081247" src="https://github.com/user-attachments/assets/7964aba0-b38d-4eab-959a-7afa800bd4f9" />
 
 
 <!--```mermaid
