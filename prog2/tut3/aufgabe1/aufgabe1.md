@@ -30,7 +30,10 @@ Die Methode getMusicByGenreFromPlaylist(playlistName: String) soll die Songs der
 
 ## Klassendiagramm
 
-```mermaid
+<img width="7210" height="4495" alt="RAG-2026-08-11-081247" src="https://github.com/user-attachments/assets/7964aba0-b38d-4eab-959a-7afa800bd4f9" />
+
+
+<!--```mermaid
 classDiagram
     class DJ {
         -playlists: Map~String, List<Music>~
@@ -78,8 +81,8 @@ classDiagram
 
     DJ o-- Music
     DJ o-- Genre
-    DJ o-- Interpret
+    DJ o-- Interpret 
     DJ ..> PlaylistEmptyException
     Music o-- Interpret
     Music o-- Genre
-```
+``` -->
