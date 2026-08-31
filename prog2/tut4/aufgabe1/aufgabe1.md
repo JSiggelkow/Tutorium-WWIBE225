@@ -29,4 +29,4 @@ Die Methode ``groupHikesByDifficultyFromMountainGuide(mountainGuide: MountainGui
 
 ## Klassendiagramm
 
-![MountainGuide Hike-2026-08-31-122647.png](MountainGuide%20Hike-2026-08-31-122647.png)
+<img width="7596" height="4810" alt="MountainGuide Hike-2026-08-31-144325" src="https://github.com/user-attachments/assets/d1474e38-a19b-4cf5-a1fa-efe0b239a185" />
