@@ -1,7 +1,7 @@
 # Hoch hinaus geht's liebe Wanderfreunde!
 
 Es ist Jausenpause, erschöpft sitzt du auf dem Boden und siehst unter dir Gestein und Berge liegen. Du bist an einem Berggipfel in den Alpen. 
-Für die nächste Wanderung möchtest du einen Berführer beauftragen, doch der Alpenverein hat die Übersicht über ihre Bergführer verloren.
+Für die nächste Wanderung möchtest du einen Bergführer beauftragen, doch der Alpenverein hat die Übersicht über ihre Bergführer verloren.
 Erstelle die Klasse ``Alpenverein`` aus dem Klassendiagramm und hilf dem Verein, sich zu organisieren.
 
 Es kann davon ausgegangen werden, dass alle Klassen die entsprechenden Objekt-, Getter- und Setter-Methoden implementieren.
