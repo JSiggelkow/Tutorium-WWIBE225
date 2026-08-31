@@ -12,15 +12,16 @@ Der Konstruktor der Klasse ``Alpenverein`` soll ``hikes`` als leere HashMap impl
 
 Die Methode ``createNewMountainGuide(mountainGuide: MountainGuide)`` soll einen neuen Bergführer hinzufügen und für ihn eine Liste mit Wanderungen erstellen. Gibt es den Bergführer schon, soll false zurückgegeben werden, andernfalls true.
 
-Die Methode ``addHikeToMountainGuide(mountainGuide: MountainGuide, hike: Hike)`` soll die Wanderung dem Bergführer hinzufügen.
+Die Methode ``addHikeToMountainGuide(mountainGuide: MountainGuide, hike: Hike)`` soll die Wanderung dem Bergführer hinzufügen. Wenn der übergebene Bergführer nicht in der Map existiert soll die Methode  
+false zurückgeben, ansonsten true.
 
-Die Methode ``getHikesSortedByLengthFromMountainGuide(mountainGuide: MountainGuide)`` soll alle Wanderungen des Bergführers nach der Länge sortieren und als Liste zurückgeben.
+Die Methode ``getHikesSortedByLengthFromMountainGuide(mountainGuide: MountainGuide)`` soll alle Wanderungen des Bergführers nach der Länge aufsteigend sortieren und als Liste zurückgeben.
 
 Die Methode ``getMountainsAbove3000FromMountainGuide(mountainGuide: MountainGuide)`` soll alle Wanderungen des Bergführers mit Bergen über 3000hm als Liste zurückgeben.
 
 Die Methode ``getAverageRatingFromMountainGuide(mountainGuide: MountainGuide)`` soll das durchschnittliche Rating aller Wanderungen des Bergführers als OptionalDouble zurückgeben.
 
-Die Methode ``getHikesSortedByElevationWithDifficultyT3FromMountainGuide(mountainGuide: MountainGuide)`` soll alle Wanderungen des Bergführers der Schwierigkeit T3 sortiert nach der Elevation als Liste zurückgeben.
+Die Methode ``getHikesSortedByElevationWithDifficultyT3FromMountainGuide(mountainGuide: MountainGuide)`` soll alle Wanderungen des Bergführers der Schwierigkeit T3 aufsteigend sortiert nach der Elevation als Liste zurückgeben.
 
 Die Methode ``getHikesWithMountainFromMountainGuide(mountainGuide: MountainGuide, mountain: Mountain)`` soll alle Wanderungen des Bergführers mit dem eingehenden Berg als Liste zurückgeben.
 
