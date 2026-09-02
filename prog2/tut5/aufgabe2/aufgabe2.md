@@ -4,7 +4,7 @@ Erstelle die Klassen Rider (5 Punkte) und Reitstall (15 Punkte) anhand des abgeb
 <img width="2951" height="1768" alt="mermaid-diagram-2026-09-01-223639" src="https://github.com/user-attachments/assets/0a0791d8-0681-4de8-8f1f-9782dec4dbea" />
 
 ## Hinweise zur Klasse Rider
-Die Methode ```int compareTo(r : Rider)``` soll so implementiert werden, dass Terminatoren absteigend
+Die Methode ```int compareTo(r : Rider)``` soll so implementiert werden, dass Rider absteigend
 nach ihrem Rating sortiert werden können (2,5 Punkte).
 
 ## Hinweise zur Klasse Reistall
