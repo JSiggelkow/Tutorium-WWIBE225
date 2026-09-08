@@ -1,7 +1,7 @@
 # Hoch hinaus geht's liebe Wanderfreunde!
 
 Es ist Jausenpause, erschöpft sitzt du auf dem Boden und siehst unter dir Gestein und Berge liegen. Du bist an einem Berggipfel in den Alpen. 
-Für die nächste Wanderung möchtest du einen Berführer beauftragen, doch der Alpenverein hat die Übersicht über ihre Bergführer verloren.
+Für die nächste Wanderung möchtest du einen Bergführer beauftragen, doch der Alpenverein hat die Übersicht über ihre Bergführer verloren.
 Erstelle die Klasse ``Alpenverein`` aus dem Klassendiagramm und hilf dem Verein, sich zu organisieren.
 
 Es kann davon ausgegangen werden, dass alle Klassen die entsprechenden Objekt-, Getter- und Setter-Methoden implementieren.
@@ -12,15 +12,16 @@ Der Konstruktor der Klasse ``Alpenverein`` soll ``hikes`` als leere HashMap impl
 
 Die Methode ``createNewMountainGuide(mountainGuide: MountainGuide)`` soll einen neuen Bergführer hinzufügen und für ihn eine Liste mit Wanderungen erstellen. Gibt es den Bergführer schon, soll false zurückgegeben werden, andernfalls true.
 
-Die Methode ``addHikeToMountainGuide(mountainGuide: MountainGuide, hike: Hike)`` soll die Wanderung dem Bergführer hinzufügen.
+Die Methode ``addHikeToMountainGuide(mountainGuide: MountainGuide, hike: Hike)`` soll die Wanderung dem Bergführer hinzufügen. Wenn der übergebene Bergführer nicht in der Map existiert soll die Methode  
+false zurückgeben, ansonsten true.
 
-Die Methode ``getHikesSortedByLengthFromMountainGuide(mountainGuide: MountainGuide)`` soll alle Wanderungen des Bergführers nach der Länge sortieren und als Liste zurückgeben.
+Die Methode ``getHikesSortedByLengthFromMountainGuide(mountainGuide: MountainGuide)`` soll alle Wanderungen des Bergführers nach der Länge aufsteigend sortieren und als Liste zurückgeben.
 
 Die Methode ``getMountainsAbove3000FromMountainGuide(mountainGuide: MountainGuide)`` soll alle Wanderungen des Bergführers mit Bergen über 3000hm als Liste zurückgeben.
 
 Die Methode ``getAverageRatingFromMountainGuide(mountainGuide: MountainGuide)`` soll das durchschnittliche Rating aller Wanderungen des Bergführers als OptionalDouble zurückgeben.
 
-Die Methode ``getHikesSortedByElevationWithDifficultyT3FromMountainGuide(mountainGuide: MountainGuide)`` soll alle Wanderungen des Bergführers der Schwierigkeit T3 sortiert nach der Elevation als Liste zurückgeben.
+Die Methode ``getHikesSortedByElevationWithDifficultyT3FromMountainGuide(mountainGuide: MountainGuide)`` soll alle Wanderungen des Bergführers der Schwierigkeit T3 aufsteigend sortiert nach der Elevation als Liste zurückgeben.
 
 Die Methode ``getHikesWithMountainFromMountainGuide(mountainGuide: MountainGuide, mountain: Mountain)`` soll alle Wanderungen des Bergführers mit dem eingehenden Berg als Liste zurückgeben.
 
@@ -29,4 +30,4 @@ Die Methode ``groupHikesByDifficultyFromMountainGuide(mountainGuide: MountainGui
 
 ## Klassendiagramm
 
-![MountainGuide Hike-2026-08-31-122647.png](MountainGuide%20Hike-2026-08-31-122647.png)
+<img width="7596" height="4810" alt="MountainGuide Hike-2026-08-31-144325" src="https://github.com/user-attachments/assets/aa7cd585-da44-424e-a45b-dbc9ccd88348" />
