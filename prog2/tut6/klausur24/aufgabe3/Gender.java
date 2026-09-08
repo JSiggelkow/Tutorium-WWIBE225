@@ -1,0 +1,7 @@
+package prog2.tut6.klausur24.aufgabe3;
+
+public enum Gender {
+	MALE,
+	FEMALE,
+	INTERSEX;
+}
