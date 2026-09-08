@@ -41,4 +41,4 @@ Erstelle die Klasse CityQueries anhand des abgebildeten Klassendiagramms.
 als 1 Million Einwohner zurückgeben (4,5 Punkte)
 * Die Methode ```Optional<String> getName0fMajorByName0fCity(name0fCity: String)``` soll den Namen des Bürgermeisters zum eingehenden Namen der Stadt zurückgeben (4 Punkte)
 * Die Methode ```double getTotalAreaInKm20fAllCitiesWithFemaleMajors()``` soll die gesamte Fläche in km2 aller Städte mit weiblichen Bürgermeistern zurückgeben (3,5 Punkte)
-*[Name der Stadt] ([Anzahl Sehenswürdigkeiten]) ausgeben (4 Punkte)
+* Die Methode ```void printCityWithMostPointsOfInterest()``` soll die Stadt mit den meisten Sehenswürdigkeiten in der Form: [Name der Stadt] ([Anzahl Sehenswürdigkeiten]) ausgeben (4 Punkte)
