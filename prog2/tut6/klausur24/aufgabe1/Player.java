@@ -41,7 +41,7 @@ public class Player { // 1.5
 		return playedCards.entrySet() // 1
 				.stream() // 1
 				.filter(e -> e.getValue() == row) // 1
-				.map(Map.Entry::getKey) // 1.5
+				.map(e -> e.getKey()) // 1.5
 				.max(Comparator.comparing(Card::power)); //1.5
 	}
 
