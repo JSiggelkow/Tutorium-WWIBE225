@@ -1,6 +1,8 @@
 # Aufgabe 1 (18 Punkte)
-Erstelle die Klasse Player anhand des abgebildeten Klassendiagramms.
-<img width="872" height="516" alt="Aufgabe1-PK24 drawio" src="https://github.com/user-attachments/assets/0060fd2a-22ee-4f10-ad32-7acd3cfd4ae3" />
+Erstelle die Klasse Player anhand des abgebildeten Klassendiagramms.  
+
+<img width="872" height="516" alt="Aufgabe1-PK24 drawio-2" src="https://github.com/user-attachments/assets/3dadb4e5-54b1-42b8-93c2-fdf82a5141a8" />
+
 
 ## Hinweise zur Klasse Player
 * Die Schlüssel-Werte-Paare des Assoziativspeichers beinhalten als Schlüssel die ausgespielten Karten des Spielers sowie als Wert deren Reihe.
@@ -12,7 +14,8 @@ dass die Aktionspunkte des Spielers nicht ausreichen, die Ausnahme NotEnoughActi
 * Die Methode Optional<Card> getMostPowerfulCardByRow (row: int) soll die stärkste ausgespielte Karte der eingehenden Reihe zurückgeben (7 Punkte)
 
 # Aufgabe 2 (14 Punkte)
-Erstelle die JUnit-5-Testklasse PlayerTest anhand des abgebildeten Klassendiagramms.
+Erstelle die JUnit-5-Testklasse PlayerTest anhand des abgebildeten Klassendiagramms.  
+
 <img width="872" height="766" alt="Aufgabe2-PK24 drawio" src="https://github.com/user-attachments/assets/57a0a7e9-9a6d-4650-9f6c-ff8ff75071ca" />
 
 ## Hinweise zur Klasse PlayerTest
@@ -28,7 +31,8 @@ mit dem Wert 1 die Karte Vampir als Optional zurückgegeben wird und prüfen, ob
 mit dem Wert 2 ein leeres Optional zurückgegeben wird (7 Punkte)
 
 # Aufgabe 3 (20 Punkte)
-Erstelle die Klasse CityQueries anhand des abgebildeten Klassendiagramms.
+Erstelle die Klasse CityQueries anhand des abgebildeten Klassendiagramms.  
+
 <img width="472" height="716" alt="Aufgabe3-PK24 drawio" src="https://github.com/user-attachments/assets/9ce227c8-bf85-40a1-916c-209922a474c7" />
 
 ## Hinweise zur Klasse CityQueries
