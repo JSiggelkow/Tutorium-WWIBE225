@@ -23,7 +23,7 @@ Erstelle die JUnit-5-Testklasse PlayerTest anhand des abgebildeten Klassendiagra
 die Karte Vampir (Beschreibung: Vampir, Kosten: 6, Stärke: 7) sowie den Spieler Hans-Peter (Name: Hans-Peter) erstellen
 und den entsprechenden Attributen zuweisen (2,5 Punkte)
 * Die Testmethode ```void testPlayCard()``` soll dem Spieler die Karte Zombie als Handkarte hinzufügen, prüfen, ob beim Aufruf der Methode
-```void playCard(row: int)``` mit der Karte Vampir sowie der Reihe 1 die Ausnahme ```CardNotFoundException``` ausgelöst wird und prüfen, ob beim Aufruf
+```void playCard(card: Card, row: int)``` mit der Karte Vampir sowie der Reihe 1 die Ausnahme ```CardNotFoundException``` ausgelöst wird und prüfen, ob beim Aufruf
 der Methode ```void playCard(card: Card, row: int)``` mit der Karte Zombie sowie der Reihe 1 die Ausnahme ```NotEnoughActionPointsException``` ausgelöst wird (3,5 Punkte)
 * Die Testmethode ```void testGetMostPowerfulCardByRow()``` soll dem Spieler 9 Aktionspunkte zuweisen, dem Spieler die beiden Karten Vampir und Zombie
 als Handkarten hinzufügen, diese Karten in der Reihe 1 ausspielen, prüfen, ob beim Aufruf der Methode ```Optional<Card> getMostPowerfulCardByRow(row: int)```
