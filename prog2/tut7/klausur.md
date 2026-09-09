@@ -17,7 +17,8 @@ latitude = Breitengrad
 # Aufgabe 1 (13 Punkte)
 Erstelle die Klassen Tour und Strava anhand des abgebildeten Klassendiagramms.
 
-<img width="1394" height="961" alt="aufgabe2 drawio-5" src="https://github.com/user-attachments/assets/8ee052ee-06c6-438d-b3a4-e648ee27319e" />
+<img width="1394" height="961" alt="aufgabe1 drawio-2" src="https://github.com/user-attachments/assets/5ff4454c-2e93-4037-9cbe-768814d608f9" />
+
 
 
 ## Hinweise zur Klasse Tour (8 Punkte)
