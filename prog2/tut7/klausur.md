@@ -14,17 +14,17 @@ latitude = Breitengrad
 
 
     
-# Aufgabe 1
+# Aufgabe 1 (13 Punkte)
 Erstelle die Klassen Tour und Strava anhand des abgebildeten Klassendiagramms.
 
 <img width="1394" height="961" alt="aufgabe2 drawio-5" src="https://github.com/user-attachments/assets/8ee052ee-06c6-438d-b3a4-e648ee27319e" />
 
 
-## Hinweise zur Klasse Tour
+## Hinweise zur Klasse Tour (8 Punkte)
 * Die Methode ```int compareTo(o: Tour)``` soll so implementiert werden, dass Touren absteigend nach ihrer Länge sortiert werden können.
-* Die Methode ```void addWayPoint(wayPoint: WayPoint)``` soll den eingehenden WayPoint der Liste an WayPoints hinzufügen. Wenn der Breitengrad kleiner als -90 oder größer als 90 ist. soll eine LatitudeException geworfen werden. Wenn der Längengrad kleiner als -180 oder größer als 180 ist, soll eine LongitudeException geworfen werden.
+* Die Methode ```void addWayPoint(wayPoint: WayPoint)``` soll den eingehenden WayPoint der Liste an WayPoints hinzufügen. Wenn der Breitengrad kleiner als -90 oder größer als 90 ist, soll eine LatitudeException geworfen werden. Wenn der Längengrad kleiner als -180 oder größer als 180 ist, soll eine LongitudeException geworfen werden.
 
-## Hinweise zur Klasse Strava
+## Hinweise zur Klasse Strava (5 Punkte)
 * Die Methode ```void showAllTours()``` soll alle Touren in der Konsole ausgeben. Hierbei ist auf die genaue Unterscheidung der Art der Tour zu achten. Bei allen Touren, egal welcher Art, soll der Name sowie die Länge der Tour ausgegeben werden. Bei Bike Touren soll das genutzt Bike mit ausgegeben werden und bei Running Touren soll der genutzte Schuh mit ausgegebe werden:
 ### Beispielhafter Konsolen-Output:
 ```bash
@@ -33,20 +33,20 @@ TOUR: Name: Roadtrip | Length: 100,00 km
 BIKETOUR: Name: Tour de Bodensee | Length: 257,04 km | Gear: Bike[brand=Cube, biketype=GRAVEL, size=M, isCarbon=false, price=1400.0]
 ```
 
-# Aufgabe 2
+# Aufgabe 2 (10 Punkte)
 Erstelle die JUnit-5-Testklasse StravaTest anhand des abgebildeten Klassendiagramms.  
 
 
 <img width="1394" height="1011" alt="test-aufgabe drawio" src="https://github.com/user-attachments/assets/e5d0b342-45f6-4e6c-a75a-98c4d21abb36" />
 
-## Hinweise zur Klasse StravaTest
+## Hinweise zur Klasse StravaTest (10 Punkte)
 * Die Lebenszyklus-Methode ```void setUp()```soll alle Klassen-Attribute sinnvoll initialisieren. Die Tour de Bodensee soll 257.04 km lang sein und der Coffee Run 10.00 km lang.
 Die restlichen Werte können selbst sinnvoll gewählt werden. Die Methode soll weiter den CoffeeRun sowie die Tour de Bodensee zu der Touren-Liste des Strava-Objekts hinzufügen.
 * Die Test-Methode ```void testComparingTour()``` soll die Touren-Liste von Strava sortieren und anschließend prüfen ob die erste Tour die Tour die Bodensee ist.
 * Die Test-Methode ```void testLongitudeException```soll prüfen, ob eine ```LongitudeException```geworfen wird, wenn dem ```coffeeRun``` ein ```WayPoint```mit dem Breitengrad 50 und dem Längengrad 200
 hinzugefügt wird.
 
-# Aufgabe 3
+# Aufgabe 3 (27 Punkte)
 Erstelle die Klasse ``JobPortal`` anhand des abgebildeten Klassendiagramms.
 
 ## Klassendiagramm
