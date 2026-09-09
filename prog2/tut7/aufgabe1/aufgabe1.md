@@ -1,6 +1,10 @@
 # Aufgabe 1
 Erstelle die Klasse ``JobPortal`` anhand des abgebildeten Klassendiagramms.
 
+## Klassendiagramm
+
+<img width="3474" height="5630" alt="JobPortal Job Offer-2026-09-09-092018" src="https://github.com/user-attachments/assets/ae566cc8-e762-40a3-9023-53818216c111" />
+
 
 ## Hinweise zur Klasse ``JobPortal``
 * Die Methode ``groupJobsWith40WeeklyWorkHoursByCompany()`` soll die Jobs mit einer wöchentlichen Arbeitszeit von 40 Stunden nach den Unternehmen gruppieren.
