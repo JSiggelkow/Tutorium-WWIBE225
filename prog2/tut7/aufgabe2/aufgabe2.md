@@ -1,7 +1,7 @@
 # Aufgabe 2
 Erstelle die Klassen Tour und Strava anhand des abgebildeten Klassendiagramms.  
 
-<img width="1394" height="961" alt="aufgabe2 drawio-3" src="https://github.com/user-attachments/assets/226bf163-4fe7-4d1b-b57b-5ab6ff2305a3" />
+<img width="1394" height="961" alt="aufgabe2 drawio-5" src="https://github.com/user-attachments/assets/8ee052ee-06c6-438d-b3a4-e648ee27319e" />
 
 
 ## Hinweise zur Klasse Tour
