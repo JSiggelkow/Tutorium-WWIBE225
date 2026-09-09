@@ -32,7 +32,7 @@ public class StravaTest {
 	}
 
 	@Test
-	void testTourLength() {
+	void testComparingTour() {
 		Collections.sort(strava.tours());
 		assertEquals(tourDeBodensee, strava.tours().getFirst());
 	}
