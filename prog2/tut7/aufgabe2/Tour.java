@@ -12,16 +12,23 @@ public class Tour implements Comparable<Tour> {
 	private double elevationGainInM;
 	private List<WayPoint> wayPoints;
 
+	public Tour(String name, double lengthInKm, double elevationGainInM, List<WayPoint> wayPoints) {
+		this.name = name;
+		this.lengthInKm = lengthInKm;
+		this.elevationGainInM = elevationGainInM;
+		this.wayPoints = wayPoints;
+	}
+
 	@Override
 	public int compareTo(@NotNull Tour o) {
-		return Double.compare(o.lengthInKm, lengthInKm);
+		return Double.compare(o.getLengthInKm(), getLengthInKm());
 	}
 
 	public void addWayPoint(WayPoint wayPoint) throws LatitudeException, LongitudeException {
 
-		if (wayPoint.getLatitude() > 90 || wayPoint.getLatitude() < -90) {
+		if (wayPoint.latitude() > 90 || wayPoint.latitude() < -90) {
 			throw new LatitudeException();
-		} else if (wayPoint.getLongitude() > 180 || wayPoint.getLongitude() < -180) {
+		} else if (wayPoint.longitude() > 180 || wayPoint.longitude() < -180) {
 			throw new LongitudeException();
 		}
 
