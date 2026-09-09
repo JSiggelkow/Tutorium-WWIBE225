@@ -63,3 +63,4 @@ Erstelle die Klasse ``JobPortal`` anhand des abgebildeten Klassendiagramms.
 * Die Methode ``getJobsFromEastWithHourlyRateAbove20ByCompany()`` soll die Jobs aus East mit einem Stundenlohn von über 20 nach den Unternehmen gruppieren.
 * Die Methode ``printThreeCompaniesWithLeastJobOffersFromEastWithHourlyRateAbove20()`` soll die drei Unternehmen mit den wenigsten Jobanzeigen aus East mit einem Stundenlohn von über 20 ausgeben.
 * **Zusatzaufgabe:** Die Methode ``getAverageSalaryGroupedByCompany()`` soll für jedes Unternehmen das durchschnittliche Gehalt gruppieren. Die Methode ist etwas schwieriger. Daher probiere es gerne alternativ ohne Streams oder versuche wie in der Klausur möglichst viele Elemente der Methode zu implementieren, um Teilpunkte mitzunehmen. 
+}}

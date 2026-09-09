@@ -1,4 +1,4 @@
-package prog2.tut7.aufgabe2;
+package prog2.tut7.aufgabe1und2;
 
 import java.util.List;
 

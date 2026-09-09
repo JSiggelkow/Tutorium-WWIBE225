@@ -1,4 +1,4 @@
-package prog2.tut7.aufgabe2;
+package prog2.tut7.aufgabe1und2;
 
 public record Bike(String brand, BikeType biketype, String size, boolean isCarbon, double price) {
 }

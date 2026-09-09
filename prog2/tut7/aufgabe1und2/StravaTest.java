@@ -1,16 +1,13 @@
-package prog2.tut7.aufgabe2;
+package prog2.tut7.aufgabe1und2;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.mockito.Mockito.when;
 
 public class StravaTest {
 	BikeTour tourDeBodensee;

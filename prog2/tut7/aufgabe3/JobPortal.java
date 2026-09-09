@@ -1,4 +1,4 @@
-package prog2.tut7.aufgabe1;
+package prog2.tut7.aufgabe3;
 
 import java.util.*;
 import java.util.stream.Collectors;

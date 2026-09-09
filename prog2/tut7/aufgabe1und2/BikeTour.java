@@ -1,12 +1,9 @@
-package prog2.tut7.aufgabe2;
+package prog2.tut7.aufgabe1und2;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import org.jetbrains.annotations.NotNull;
 
-import java.util.Comparator;
 import java.util.List;
 
 @Getter
