@@ -42,7 +42,7 @@ Erstelle die JUnit-5-Testklasse StravaTest anhand des abgebildeten Klassendiagra
 ## Hinweise zur Klasse StravaTest (10 Punkte)
 * Die Lebenszyklus-Methode ```void setUp()```soll alle Klassen-Attribute sinnvoll initialisieren. Die Tour de Bodensee soll 257.04 km lang sein und der Coffee Run 10.00 km lang.
 Die restlichen Werte können selbst sinnvoll gewählt werden. Die Methode soll weiter den CoffeeRun sowie die Tour de Bodensee zu der Touren-Liste des Strava-Objekts hinzufügen.
-* Die Test-Methode ```void testComparingTour()``` soll die Touren-Liste von Strava sortieren und anschließend prüfen ob die erste Tour die Tour die Bodensee ist.
+* Die Test-Methode ```void testComparingTour()``` soll die Touren-Liste von Strava sortieren und anschließend prüfen ob die erste Tour die Tour de Bodensee ist.
 * Die Test-Methode ```void testLongitudeException```soll prüfen, ob eine ```LongitudeException```geworfen wird, wenn dem ```coffeeRun``` ein ```WayPoint```mit dem Breitengrad 50 und dem Längengrad 200
 hinzugefügt wird.
 
